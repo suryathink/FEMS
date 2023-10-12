@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  background-color: #e6eff5;
+  font-family: "Karla";
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+  width: 47%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  min-width: 311px;
+}
+
+.first-div {
+  height: 45%;
+  padding: 20px 0px 0px 40px;
+}
+.first-div h2 {
+  color: #2ab3b1;
+  font-family: "Karla";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+.first-div .money-back-guarantee {
+  color: #c0df33;
+  font-family: "Karla";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+  margin-bottom: 0px;
+}
+.first-div .gain-access {
+  color: #9aa7be;
+  font-family: "Karla";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+}
+
+.second-div {
+  height: 55%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.second-div .left {
+  width: 50%;
+  background: #2ab3b1;
+  padding: 40px 0px 0px 40px;
+}
+.second-div .left h3 {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+}
+.second-div .left .pricing {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.second-div .left .pricing span {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  opacity: 0.5;
+}
+.second-div .left .one-dollar {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.second-div .left button {
+  width: 60%;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #c0df33;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.second-div .right {
+  width: 50%;
+  opacity: 0.7;
+  background: #2ab3b1;
+  padding: 40px;
+}
+.second-div .right h3 {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.second-div .right p {
+  color: #fff;
+  font-family: "Karla";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
