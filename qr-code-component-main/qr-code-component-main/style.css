@@ -40,6 +40,9 @@ body {
 }/*# sourceMappingURL=style.css.map */
 
 @media only screen and (max-width: 600px) {
+  body{
+  marging-bottom:30px;
+}
  .main{
   margin-top: 30px;
 /*   margin-bottom: 30px; */
