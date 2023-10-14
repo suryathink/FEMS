@@ -47,4 +47,16 @@ body {
       color: hsl(220, 15%, 55%);
     }
   }
+  @media only screen and (max-width: 600px) {
+ .main{
+  margin-top: 30px;
+  padding-bottom: 0px !important;
+  // padding: 0px !important;
+  height: 600px;
+
+ }
+ .content{
+  padding-left:  0px !important;
+  padding-right: 0px !important;
+ }
 }
