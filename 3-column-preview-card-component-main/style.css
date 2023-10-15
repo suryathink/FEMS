@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+}
+
+.main {
+  height: 380px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.main .sedan,
+.main .suv,
+.main .luxury {
+  height: 100%;
+  width: 33.33%;
+  padding: 40px 40px 0px 40px;
+  border: 1px solid black;
+}
+.main .sedan .image,
+.main .suv .image,
+.main .luxury .image {
+  margin-top: 15px;
+}
+.main .sedan h2,
+.main .suv h2,
+.main .luxury h2 {
+  font-size: 30px;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+}
+.main .sedan p,
+.main .suv p,
+.main .luxury p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+.main .sedan button,
+.main .suv button,
+.main .luxury button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-block-start: 40px;
+}
+.main .sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.main .suv {
+  background-color: hsl(184, 100%, 22%);
+}
+.main .luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.main .first {
+  color: hsl(31, 77%, 52%);
+}
+.main .second {
+  color: hsl(184, 100%, 22%);
+}
+.main .third {
+  color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 400px) {
+  .main {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .main .sedan,
+  .main .suv,
+  .main .luxury {
+    padding: 40px !important;
+    width: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
