@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@150;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+  flex-direction: column;
+}
+
+.main {
+  width: 250px;
+  height: 430px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+}
+.main img {
+  width: 100%;
+  height: 55%;
+  border-radius: 10px;
+}
+.main img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.main .equilibrium-image-div:hover {
+  background-color: hsl(178, 100%, 50%) !important;
+  border-radius: 10px;
+  background-image: url(/images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+}
+.main .equilibrium {
+  color: hsl(0, 0%, 100%);
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main .equilibrium:hover {
+  color: hsl(178, 100%, 50%) !important;
+}
+.main .equilibrium-text {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: rgb(69, 91, 122);
+  font-weight: 600;
+}
+.main .text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.main .text .etherium {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsl(178, 100%, 50%);
+  align-items: center;
+}
+.main .text .etherium img {
+  width: 20%;
+  height: 90%;
+}
+.main .text .time {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(69, 91, 122);
+}
+.main .text .time img {
+  width: 20%;
+  height: 90%;
+}
+.main .creator {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.main .creator img {
+  width: 13%;
+  height: 13%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.main .creator p {
+  color: rgb(69, 91, 122);
+}
+.main .creator .name {
+  color: white;
+}
+.main .creator .name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 10px;
+  text-align: center;
+  color: aliceblue;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=styles.css.map */
